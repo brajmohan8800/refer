@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: otp-app
-    env: php
+    name: otp-register
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: "php -S 0.0.0.0:10000"
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
     envVars:
       - key: PORT
-        value: 10000
+        value: 80
