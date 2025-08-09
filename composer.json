@@ -1,0 +1,7 @@
+{
+    "name": "otp-app",
+    "description": "Simple OTP verification PHP app",
+    "require": {
+        "php": ">=8.0"
+    }
+}
